@@ -1,0 +1,96 @@
+/*Загальні стилі ----------------------------*/
+* {
+  padding: 0;
+  margin: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0 auto;
+  width: 70%;
+  font-family: arial black;
+  color: #000;
+
+}
+.wrapper {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 20px;
+}
+.header {
+    background-color: #6495ED;
+    color: #FFF5EE;
+
+}
+
+ .nav {
+  text-align: center;
+ }
+ .nav ul li {
+  display: inline-block;
+ }
+ .nav ul li a {
+  display: block;
+  height: 100px;
+  padding: 0 20px;
+  line-height: 100px;
+  font-size: 24px;
+  transition: all 0.5s;
+  text-decoration: none;
+  font-family: 'Indie Flower', cursive;
+  color: #090790;
+ }
+  .nav ul li a:hover {
+  background-color: red;
+  color: #000
+ }
+ .footer {
+    background-color: #6495ED;
+    color: #FFF5EE;
+    text-align: center;
+    width: 100%;
+    bottom: 88;
+}
+ 
+/* Main */
+.main {
+    max-width: 1170px;
+    width: 100%;
+    margin: 10px auto 0;
+    padding-bottom: 100px;
+}
+.main .main-content-image {
+  width: 3px;
+  margin: 0 auto;
+}
+.main .main-content-image img {
+  width: 100%;
+}
+.main h3 {
+  text-align: center;
+  margin: 15px auto;
+} 
+.main-content ul {
+  padding: 10px 20px;
+}
+.main-content p {
+  text-indent: 30px;
+}
+.main-content h2 {
+  text-align: center;
+  text-indent: 30px;
+  margin: 15px auto;
+}
+/*.main-content-image {
+  display: inline-block;
+  text-align: center;
+}*/
+.front-end {
+  position: relative;
+}
+.main .main-content-image img {
+    width: 7%;
+}
+© 2021 GitHub, Inc.
