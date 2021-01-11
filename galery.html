@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Галерея</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/form.css">
+	<link rel="stylesheet" href="css/slider.css">
+	<link rel="stylesheet" href="css/calendar.css">
+	<script src="calendar.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+		<div class="header-logo">
+		  <a href="index.html"><img src="imag/logo.png" alt="TD"></a>
+		</div>
+		<nav class="nav">
+			<ul>
+				<li><a href="index.html">Головна</a></li>
+				<li><a href="profile1.html">Наша команда</a></li>
+				<li><a href="galery.html">Галерея</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class = "main">
+		<section class = "main-content">
+	<div class="front-end">
+				
+     <button class="controls" id="previous"><</button>
+     <button class="controls" id="pause">Pause</button>
+     <button class="controls" id="next">></button>
+		<ul id="slides">
+			 <li class="slide showing"> 
+			 	<img src="imag/1.jpg" alt="1">
+			 </li>
+			 <li class="slide">
+			 	<img src="imag/2.jpg" alt="1">
+			 </li>
+			 <li class="slide">
+			 	<img src="imag/3.jpg" alt="1">
+			 </li>
+			 <li class="slide">
+			 	<img src="imag/4.jpg" alt="1">
+			 </li>
+			 <li class="slide">
+			 	<img src="imag/5.jpg" alt="1">
+			 </li>
+		</ul>
+			</div>
+			<div class="back-end">
+				<div class="container">
+<label for="date">Дата: </label><input type="text" id="date" name="date" readonly="readonly" size="10" onclick="showcalendar(this)"/>
+
+					<div id="calendar" class="calendar-wrapper"></div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<ul>
+			<li>© ANNA LOGVYNENKO</li>
+			<li>© ELENA ZALOZNA</li>
+			<li>© YULIA VEIKO</li>
+		</ul>
+	</footer>
+</div>
+<script src="javascript.js"></script>
+</body>
+</html>
